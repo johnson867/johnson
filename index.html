@@ -5,1342 +5,2136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Johnson Mwangi Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Johnson Mwangi | Web Developer</title>
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Social preview -->
+    <meta property="og:title" content="Johnson Mwangi | Web Developer">
+    <meta property="og:description" content="ICT student, web developer and digital creator building modern, responsive websites and web applications.">
+    <meta property="og:image" content="images/social-preview.jpg">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+>
 </head>
-<script src="js/script.js"></script>
-</body>
 
 <body>
 
-    <!-- ===== NAVIGATION ===== -->
+    <!-- ================= NAVIGATION ================= -->
+    <header class="navbar">
+        <div class="nav-container">
 
-    <header class="header">
+            <!-- Logo / Brand -->
+            <a href="#home" class="nav-logo">
+                <img src="images/avatar.jpg" alt="Johnson Mwangi">
 
-        <a href="#home" class="logo">
+                <div class="brand-text">
+                    <span class="brand-name">Johnson Mwangi</span>
+                    <span class="brand-tag">Ngisto Keche</span>
+                </div>
+            </a>
 
-            <img src="pictures/kkkkkkkkkkk.jpg" alt="">
+            <!-- Navigation -->
+            <nav class="nav-menu" id="navMenu">
 
-            <div class="logo-text">
-                <h3>Johnson Mwangi</h3>
-                <span>(Ngisto Keche)</span>
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#creative" class="nav-link">Creative</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#journey" class="nav-link">Journey</a>
+                <a href="#contact" class="nav-link">Contact</a>
+
+            </nav>
+
+            <!-- Navigation Actions -->
+            <div class="nav-actions">
+
+                <!-- Theme -->
+                <button
+                    class="theme-switch"
+                    id="themeToggle"
+                    type="button"
+                    role="switch"
+                    aria-checked="false"
+                    aria-label="Toggle dark mode"
+                >
+                    <span class="theme-switch-track">
+                        <i class="fa-solid fa-sun theme-switch-icon theme-switch-icon-sun"></i>
+                        <i class="fa-solid fa-moon theme-switch-icon theme-switch-icon-moon"></i>
+                        <span class="theme-switch-thumb"></span>
+                    </span>
+                </button>
+
+                <!-- AI Chatbot -->
+                <button class="chatbot-btn" id="chatbotOpen" aria-label="Open AI assistant">
+    <i class="fa-solid fa-robot"></i>
+    <span class="chatbot-text">Ask AI</span>
+</button>
+
+                <!-- Mobile Menu -->
+                <button class="menu-toggle" id="menuToggle">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </button>
+
             </div>
 
-        </a>
-
-        <nav class="navbar">
-
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="#achievements">Achievements</a>
-            <a href="#tools">Tools</a>
-            <a href="#contact">Contact</a>
-
-        </nav>
-
-        <a href="#contact" class="contact-btn">
-            Let's Talk
-        </a>
-
-        <div class="menu-btn">
-            <i class="fas fa-bars"></i>
         </div>
-
     </header>
 
-   <section class="home" id="home">
+    <!-- =========================
+     HERO / HOME SECTION
+========================= -->
+<section class="hero" id="home">
 
-    <div class="home-content">
-
-        <span class="hero-badge">
-            Welcome To My Portfolio
-        </span>
-
-        <h3>Hello, I'm</h3>
-
-        <h1>Johnson Mwangi Muchoki</h1>
-
-        <h2>
-            <span>Ngisto Keche</span>
-        </h2>
-
-        <p>
-            An ICT Student, Graphic Designer, Video Editor,
-            Digital Content Creator, and aspiring Web Developer.
-            I combine technology and creativity to build engaging
-            digital experiences that inspire, educate, and entertain.
-        </p>
-
-        <div class="hero-buttons">
-
-            <a href="#portfolio" class="btn">
-                View My Work
-            </a>
-
-            <a href="#contact" class="btn-outline">
-                Hire Me
-            </a>
-
-        </div>
-
-        <div class="social-icons">
-
-            <a href="https://www.facebook.com/ngisto.keche" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-
-            <a href="https://www.instagram.com/keche6784/" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-
-            <a href="https://www.tiktok.com/@mwangi.official2" target="_blank">
-                <i class="fab fa-tiktok"></i>
-            </a>
-
-            <a href="https://www.youtube.com/@ngistokeche" target="_blank">
-                <i class="fab fa-youtube"></i>
-            </a>
-            <a href="https://www.linkedin.com/messaging/thread/2-MmI4N2Q2N2YtNjJmYS00MTI0LTk4N2MtYmNmMzRmN2UzOGI3XzEwMA==/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/Genymobile/scrcpy">
-                <i class="fab fa-github"></i>
-            </a>
-
-        </div>
-
+    <div class="hero-background">
+        <div class="hero-glow hero-glow-one"></div>
+        <div class="hero-glow hero-glow-two"></div>
+        <div class="hero-grid"></div>
     </div>
 
-    <div class="home-image">
+    <div class="hero-container">
 
-        <div class="image-box">
+        <!-- LEFT CONTENT -->
+        <div class="hero-content">
 
-           <img src="pictures/jjjjjjjjjjjjj.jpeg" alt="">
-
-        </div>
-
-    </div>
-
-</section>
-
-    <script src="js/script.js"></script>
-    
-    <!-- STATISTICS SECTION -->
-
-<section class="stats">
-
-    <div class="stat-card">
-        <h2>50+</h2>
-        <p>Projects Completed</p>
-    </div>
-
-    <div class="stat-card">
-        <h2>100+</h2>
-        <p>Videos Edited</p>
-    </div>
-
-    <div class="stat-card">
-        <h2>10K+</h2>
-        <p>Audience Reach</p>
-    </div>
-
-    <div class="stat-card">
-        <h2>3+</h2>
-        <p>Years Experience</p>
-    </div>
-
-</section>
-
-<section class="about" id="about">
-
-    <div class="about-image">
-
-       <img src="pictures/kkkkkkkkkkk.jpg" alt="">
-
-    </div>
-
-    <div class="about-content">
-
-        <span class="section-tag">
-            About Me
-        </span>
-
-        <h2>
-            Building My Future Through
-            Technology & Creativity
-        </h2>
-
-        <p>
-            My name is Johnson Mwangi Muchoki, professionally
-            known as Ngisto Keche. I am a passionate ICT student,
-            graphic designer, video editor, digital content creator,
-            and aspiring web developer based in Kenya.
-        </p>
-
-        <p>
-            I enjoy creating engaging digital experiences that
-            combine creativity, technology, and storytelling.
-            Through my content, designs, and technical projects,
-            I aim to inspire, entertain, and solve real-world problems.
-        </p>
-
-        <p>
-            My goal is to become a leading digital creator and ICT
-            professional capable of developing innovative solutions
-            while helping brands and individuals grow online.
-        </p>
-
-        <a href="#contact" class="btn">
-            Let's Work Together
-        </a>
-
-    </div>
-
-</section>
-<!-- ================= MISSION SECTION ================= -->
-
-<section class="mission" id="mission">
-
-    <div class="section-heading">
-
-        <span>My Mission</span>
-
-        <h2>Creating Impact Through Technology & Creativity</h2>
-
-    </div>
-
-    <div class="mission-content">
-
-        <p>
-            My mission is to combine technology, creativity, and innovation
-            to create meaningful digital experiences that educate, inspire,
-            and entertain. Through ICT, graphic design, video editing,
-            content creation, and web development, I strive to develop
-            solutions that positively impact individuals, businesses,
-            and communities.
-        </p>
-
-        <p>
-            I believe in continuous learning, embracing new challenges,
-            and using my skills to transform ideas into reality while
-            contributing to the growth of the digital world.
-        </p>
-        <div class="mission-highlight">
-    Technology Fuels My Skills • Creativity Drives My Vision
-</div>
-
-    </div>
-
-</section>
-<!-- ================= CAREER OBJECTIVE ================= -->
-
-<section class="career-objective" id="career-objective">
-
-    <div class="section-heading">
-
-        <span>Career Objective</span>
-
-        <h2>Building a Future in Technology & Digital Innovation</h2>
-
-    </div>
-
-    <div class="objective-content">
-
-        <p>
-            As an ICT student and digital creator, my goal is to build a
-            successful career in technology while continuously expanding my
-            expertise in web development, networking, multimedia production,
-            and digital solutions.
-        </p>
-
-        <p>
-            I aspire to become a highly skilled ICT professional capable of
-            developing innovative solutions that solve real-world problems,
-            empower communities, and contribute to technological advancement.
-        </p>
-
-        <p>
-            Through dedication, continuous learning, and practical experience,
-            I aim to transform my passion for technology and creativity into a
-            profession that creates value and lasting impact.
-        </p>
-        <div class="objective-highlight">
-    Turning Ideas Into Solutions Through Technology & Creativity
-</div>
-
-    </div>
-
-</section>
-
-<!-- EDUCATION SECTION -->
- 
-
-<section class="education" id="education">
-
-    <div class="section-heading">
-
-        <span>My Journey</span>
-
-        <h2>Educational Background</h2>
-
-    </div>
-
-    <div class="timeline">
-
-        <div class="timeline-item">
-
-            <div class="timeline-dot"></div>
-
-            <div class="timeline-content">
-
-                <h3>Kiriko Primary School</h3>
-
-                <span>2009 - 2019</span>
-
-                <p>
-                    My educational journey began at Kiriko Primary School, where I developed essential academic skills, discipline, teamwork, and determination. During this period, I built a strong educational foundation that nurtured my curiosity, creativity, and desire to pursue knowledge beyond the classroom.
-                </p>
-
+            <div class="hero-badge">
+                <span class="status-dot"></span>
+                Available for web projects
             </div>
 
-        </div>
-
-        <div class="timeline-item">
-
-            <div class="timeline-dot"></div>
-
-            <div class="timeline-content">
-
-                <h3>Kiriaini Mixed Secondary School</h3>
-
-                <span>2020 - 2023</span>
-
-                <p>
-                   At Kiriaini Mixed Secondary School, I expanded my academic knowledge and developed important life skills such as leadership, communication, and problem-solving. The experience strengthened my confidence and inspired me to explore technology and innovation as a future career path.
-                </p>
-
-            </div>
-
-        </div>
-
-        <div class="timeline-item">
-
-            <div class="timeline-dot"></div>
-
-            <div class="timeline-content">
-
-                <h3>Kiharu Technical & Vocational College</h3>
-
-                <span>2025 - Present</span>
-
-                <p>
-                    I am currently pursuing a Diploma in Information Communication Technology (ICT) at Kiharu TVC. Through practical training and hands-on projects, I continue to strengthen my skills in web development, networking, software applications, digital media, and emerging technologies. My time at Kiharu TVC has also enabled me to combine technology with creativity through graphic design, video editing, content creation, and digital branding.
-                </p>
-                <div class="college-image">
-
-    <img src="pictures/i love ktvc.jpeg" alt="Kiharu Technical and Vocational College">
-
-</div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- TECHNICAL EXPERIENCE -->
-
-<div class="technical-experience">
-
-    <h3 class="experience-title">
-        Technical Excellence & Practical Training
-    </h3>
-
-    <div class="experience-item">
-
-        <h4>🌐 Network Configuration</h4>
-
-        <p>
-            Participated in practical networking activities involving
-            router configuration, IP addressing, troubleshooting,
-            and network connectivity management. This experience
-            strengthened my understanding of modern network systems.
-        </p>
-
-    </div>
-
-    <div class="experience-item">
-
-        <h4>🎨 Graphic Design & Digital Creativity</h4>
-
-        <p>
-            Applied creative design principles to develop posters,
-            social media graphics, and digital branding materials
-            while enhancing my visual communication skills.
-        </p>
-
-    </div>
-
-    <div class="experience-item">
-
-        <h4>🔌 Structured Cabling & Termination</h4>
-
-        <p>
-            Gained hands-on experience in cable termination,
-            network installation, cable testing, and structured
-            cabling practices used in professional ICT environments.
-        </p>
-
-    </div>
-
-</div>
-<!-- GALLERY SECTION -->
-
-<section class="gallery" id="gallery">
-
-    <div class="section-heading">
-
-        <span>Gallery</span>
-
-        <h2>Technical Journey in Pictures</h2>
-
-        <p>
-            A collection of memorable moments showcasing my academic growth,
-            practical ICT training, creative projects, technical activities,
-            and professional development journey.
-        </p>
-
-    </div>
-
-    <div class="gallery-container">
-
-        <div class="gallery-item">
-            <img src="pictures/router.jpg" alt="Router Configuration">
-            <div class="gallery-overlay">
-                <h3>Network Configuration</h3>
-            </div>
-        </div>
-
-        <div class="gallery-item">
-            <img src="pictures/gra.jpeg" alt="Graphic Design">
-            <div class="gallery-overlay">
-                <h3>Graphic Design</h3>
-            </div>
-        </div>
-
-        <div class="gallery-item">
-            <img src="pictures/cable.jpg" alt="Cable Termination">
-            <div class="gallery-overlay">
-                <h3>Cable Termination</h3>
-            </div>
-        </div>
-
-        <div class="gallery-item">
-            <img src="pictures/i love ktvc.jpeg" alt="Kiharu TVC">
-            <div class="gallery-overlay">
-                <h3>Kiharu TVC</h3>
-            </div>
-        </div>
-
-        <div class="gallery-item">
-            <img src="pictures/content.png" alt="Content Creation">
-            <div class="gallery-overlay">
-                <h3>Content Creation</h3>
-            </div>
-        </div>
-
-        <div class="gallery-item">
-            <img src="pictures/project.jpg" alt="Creative Projects">
-            <div class="gallery-overlay">
-                <h3>Creative Projects</h3>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-</div>
-
-
-<section class="skills" id="skills">
-
-    <div class="section-heading">
-
-        <span>My Expertise</span>
-
-        <h2>Professional Skills</h2>
-
-    </div>
-
-    <div class="skills-container">
-
-        <div class="skill-box">
-
-            <h3>Graphic Design</h3>
-
-            <div class="progress-bar">
-                <div class="progress graphic"></div>
-            </div>
-
-        </div>
-
-        <div class="skill-box">
-
-            <h3>Video Editing</h3>
-
-            <div class="progress-bar">
-                <div class="progress video"></div>
-            </div>
-
-        </div>
-
-        <div class="skill-box">
-
-            <h3>Content Creation</h3>
-
-            <div class="progress-bar">
-                <div class="progress content"></div>
-            </div>
-
-        </div>
-
-        <div class="skill-box">
-
-            <h3>Web Development</h3>
-
-            <div class="progress-bar">
-                <div class="progress web"></div>
-            </div>
-
-        </div>
-
-        <div class="skill-box">
-
-            <h3>ICT Support</h3>
-
-            <div class="progress-bar">
-                <div class="progress ict"></div>
-            </div>
-
-        </div>
-
-        <div class="skill-box">
-
-            <h3>Social Media Branding</h3>
-
-            <div class="progress-bar">
-                <div class="progress branding"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- ================= MUSIC SECTION ================= -->
-
-<section class="music-section" id="music">
-
-    <div class="music-content">
-
-        <div class="music-text">
-
-            <span>My Music</span>
-
-            <h2>Listen To My Story</h2>
-
-            <p>
-    Beyond technology and digital content creation, music remains one of the
-    most powerful ways through which I communicate ideas, emotions, and life
-    experiences. It provides a unique opportunity to connect with audiences,
-    inspire positive change, and tell stories that resonate with everyday life.
-    My musical journey reflects my commitment to creativity, self-expression,
-    and personal growth while staying true to my identity and background.
-
-    Through every lyric and performance, I strive to share authentic experiences,
-    celebrate resilience, and encourage others to pursue their goals despite
-    challenges. My music complements my work as a digital creator by combining
-    storytelling, creativity, and innovation into a meaningful artistic
-    experience. It serves as a reflection of my journey, ambitions, and vision
-    for the future, allowing me to engage with people in a way that extends
-    beyond traditional content creation.
-
-    Whether through technology, visual design, video production, or music,
-    my goal remains the same: to create impactful experiences, inspire others,
-    and continuously grow as a creative professional and future ICT expert.
+            <p class="hero-greeting">
+                Hi, I'm <span>Johnson Mwangi</span>
             </p>
 
-            <a href="https://www.youtube.com/watch?v=J5uhMbh6OZE"
-               target="_blank"
-               class="btn">
-                🎵 Listen on YouTube
-            </a>
+            <h1 class="hero-title">
+                I Build
+                <span class="gradient-text">Digital Experiences</span>
+                That Turn Ideas Into Reality.
+            </h1>
+
+            <p class="hero-description">
+                ICT student, web developer and digital creator passionate about
+                building modern websites, web applications and creative digital
+                experiences that are useful, responsive and visually engaging.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="hero-btn primary-btn">
+                    <span>View My Work</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+
+                <a href="#contact" class="hero-btn secondary-btn">
+                    <span>Let's Work Together</span>
+                </a>
+
+            </div>
+
+            <!-- TECHNOLOGY TAGS -->
+            <div class="hero-tech">
+
+                <span class="tech-label">Currently working with</span>
+
+                <div class="tech-list">
+
+                    <span class="tech-item">
+                        <span class="tech-icon">HTML</span>
+                    </span>
+
+                    <span class="tech-item">
+                        <span class="tech-icon">CSS</span>
+                    </span>
+
+                    <span class="tech-item">
+                        <span class="tech-icon">JS</span>
+                    </span>
+
+                    <span class="tech-item">
+                        <span class="tech-icon">Python</span>
+                    </span>
+
+                    <span class="tech-item">
+                        <span class="tech-icon">Django</span>
+                    </span>
+
+                    <span class="tech-item">
+                        <span class="tech-icon">Git</span>
+                    </span>
+
+                </div>
+
+            </div>
 
         </div>
 
-        <div class="music-image">
 
-            <img src="pictures/777e3570-af15-4f94-9663-57b056f1f757.png" alt="Johnson Mwangi">
+        <!-- RIGHT VISUAL -->
+        <div class="hero-visual">
+
+            <div class="hero-image-wrapper">
+
+                <div class="hero-image-glow"></div>
+
+                <div class="hero-image-card">
+
+                    <div class="image-card-top">
+                        <span class="image-dot"></span>
+                        <span class="image-dot"></span>
+                        <span class="image-dot"></span>
+                    </div>
+
+                    <div class="hero-image-container">
+                        <img
+                            src="images/hero.jpg"
+                            alt="Johnson Mwangi - Web Developer and Digital Creator"
+                        >
+                    </div>
+
+                </div>
+
+
+                <!-- FLOATING CARD 1 -->
+                <div class="floating-card floating-card-one">
+
+                    <div class="floating-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <div>
+                        <strong>Web Development</strong>
+                        <small>Modern & Responsive</small>
+                    </div>
+
+                </div>
+
+
+                <!-- FLOATING CARD 2 -->
+                <div class="floating-card floating-card-two">
+
+                    <div class="floating-icon purple-icon">
+                        ✦
+                    </div>
+
+                    <div>
+                        <strong>Digital Creativity</strong>
+                        <small>Design • Branding • Graphics</small>
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
     </div>
 
-</section>
 
+    <!-- SCROLL INDICATOR -->
+    <a href="#about" class="scroll-indicator">
 
-<!-- SERVICES SECTION -->
+        <span>Scroll to explore</span>
 
-<section class="services" id="services">
+        <span class="scroll-line"></span>
 
-    <div class="section-heading">
+        <span class="scroll-arrow">↓</span>
 
-        <span>What I Do</span>
-
-        <h2>My Services</h2>
-
-        <p>
-            I provide creative and technical solutions that help
-            individuals, businesses, and organizations establish
-            a strong digital presence and achieve their goals.
-        </p>
-
-    </div>
-
-    <div class="services-container">
-
-        <div class="service-card">
-
-            <i class="fas fa-palette"></i>
-
-            <h3>Graphic Design</h3>
-
-            <p>
-                Professional posters, flyers, banners,
-                social media graphics, branding materials,
-                and promotional designs.
-            </p>
-
-        </div>
-
-        <div class="service-card">
-
-            <i class="fas fa-video"></i>
-
-            <h3>Video Editing</h3>
-
-            <p>
-                High-quality editing for TikTok,
-                YouTube Shorts, Instagram Reels,
-                events, and promotional videos.
-            </p>
-
-        </div>
-
-        <div class="service-card">
-
-            <i class="fas fa-laptop-code"></i>
-
-            <h3>Web Development</h3>
-
-            <p>
-                Modern, responsive websites built
-                using current web technologies and
-                best development practices.
-            </p>
-
-        </div>
-
-        <div class="service-card">
-
-            <i class="fas fa-camera"></i>
-
-            <h3>Content Creation</h3>
-
-            <p>
-                Creating engaging digital content
-                that entertains, informs, and
-                grows online communities.
-            </p>
-
-        </div>
-
-        <div class="service-card">
-
-            <i class="fas fa-bullhorn"></i>
-
-            <h3>Digital Branding</h3>
-
-            <p>
-                Helping businesses and individuals
-                build a strong and memorable
-                online identity.
-            </p>
-
-        </div>
-
-        <div class="service-card">
-
-            <i class="fas fa-computer"></i>
-
-            <h3>ICT Support</h3>
-
-            <p>
-                Software installation, troubleshooting,
-                maintenance, and technical assistance.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-<section class="cta">
-
-    <h2>
-        Have a Project in Mind?
-    </h2>
-
-    <p>
-        Let's work together and turn your ideas
-        into reality through creativity, technology,
-        and innovation.
-    </p>
-
-    <a href="#contact" class="btn">
-        Contact Me
     </a>
 
 </section>
-<section class="why-me">
 
-    <div class="section-heading">
+<!-- =========================
+     ABOUT SECTION
+========================= -->
+<section class="about-section" id="about">
 
-        <span>Why Choose Me</span>
+    <div class="about-container">
 
-        <h2>What Makes Me Different</h2>
+        <!-- SECTION HEADER -->
+        <div class="section-heading">
 
-    </div>
+            <span class="section-label">ABOUT ME</span>
 
-    <div class="why-container">
-
-        <div class="why-box">
-            <h3>Creative Thinking</h3>
-            <p>
-                Combining design, technology,
-                and storytelling to create
-                unique solutions.
-            </p>
-        </div>
-
-        <div class="why-box">
-            <h3>Technical Knowledge</h3>
-            <p>
-                Applying ICT skills to solve
-                problems and improve digital
-                experiences.
-            </p>
-        </div>
-
-        <div class="why-box">
-            <h3>Fast Delivery</h3>
-            <p>
-                Delivering quality work while
-                respecting deadlines and
-                client expectations.
-            </p>
-        </div>
-
-        <div class="why-box">
-            <h3>Continuous Learning</h3>
-            <p>
-                Constantly improving skills
-                and staying updated with
-                emerging technologies.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-<!-- PORTFOLIO SECTION -->
-
-<section class="portfolio" id="portfolio">
-
-    <div class="section-heading">
-
-        <span>My Work</span>
-
-        <h2>Portfolio Showcase</h2>
-
-        <p>
-            A collection of my creative and technical projects
-            including graphic design, video editing, web design,
-            and digital content creation.
-        </p>
-
-    </div>
-
-    <div class="portfolio-container">
-
-        <div class="portfolio-slider">
-
-    <div class="portfolio-track">
-
-        <!-- Item 1 -->
-        <div class="portfolio-card">
-            <img src="pictures/graphic 2.png" alt="">
-            <h3>Graphic Design</h3>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="portfolio-card">
-            <img src="pictures/video.png" alt="">
-            <h3>Video Editing</h3>
-        </div>
-
-        <!-- Item 3 -->
-        <div class="portfolio-card">
-            <img src="pictures/web.png" alt="">
-            <h3>Web Development</h3>
-        </div>
-
-        <!-- Item 4 -->
-        <div class="portfolio-card">
-            <img src="pictures/content.png" alt="">
-            <h3>Content Creation</h3>
-        </div>
-
-        <!-- Duplicate for smooth looping -->
-        <div class="portfolio-card">
-            <img src="pictures/graphic.png" alt="">
-            <h3>Graphic Design</h3>
-        </div>
-
-        <div class="portfolio-card">
-            <img src="pictures/Screenshot 2026-06-16 201723.png" alt="">
-            <h3>Video Editing</h3>
-        </div>
-
-        <div class="portfolio-card">
-            <img src="pictures/web.png" alt="">
-            <h3>Web Development</h3>
-        </div>
-
-        <div class="portfolio-card">
-            <img src="pictures/content.png" alt="">
-            <h3>Content Creation</h3>
-        </div>
-        <div class="portfolio-card">
-            <img src="pictures/ai poster.png" alt="">
-            <h3>Graphic Design</h3>
-        </div>
-        <div class="portfolio-card">
-            <img src="pictures/Youtube Thumbnail.png" alt="">
-            <h3>Thumbnail</h3>
-        </div>
-        <div class="portfolio-card">
-            <img src="pictures/tudio.png" alt="">
-            <h3>logo Creation</h3>
-
-    </div>
-
-</div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section class="testimonials" id="testimonials">
-
-    <div class="section-heading">
-
-        <span>Testimonials</span>
-
-        <h2>What People Say About Me</h2>
-
-        <p>
-            Feedback from clients, colleagues, and collaborators
-            who have worked with me on creative and technical projects.
-        </p>
-
-    </div>
-
-    <div class="testimonials-container">
-
-        <div class="testimonial-card">
-
-            <img src="pictures/man-portrait-silhouette-human-face-600nw-2730740823.webp" alt="Client">
+            <h2>
+                Building Skills.
+                <span>Creating Possibilities.</span>
+            </h2>
 
             <p>
-                "Johnson is highly creative and reliable.
-                His graphic design work helped us attract
-                more students to our campus event."
-            </p>
-
-            <h3>Student Leader</h3>
-
-            <span>Kiharu TVC</span>
-
-        </div>
-
-        <div class="testimonial-card">
-
-            <img src="pictures/man-portrait-silhouette-human-face-600nw-2730740823.webp" alt="Client">
-
-            <p>
-                "His video editing skills are exceptional.
-                He transformed our raw footage into an engaging
-                and professional video."
-            </p>
-
-            <h3>Content Creator</h3>
-
-            <span>Murang'a County</span>
-
-        </div>
-
-        <div class="testimonial-card">
-
-            <img src="pictures/man-portrait-silhouette-human-face-600nw-2730740823.webp" alt="Client">
-
-            <p>
-                "Professional, creative, and easy to work with.
-                I highly recommend him for digital branding
-                and social media content."
-            </p>
-
-            <h3>Business Owner</h3>
-
-            <span>Local Entrepreneur</span>
-
-        </div>
-
-    </div>
-    
-
-</section>
-
-<!-- ACHIEVEMENTS SECTION -->
-
-<section class="achievements" id="achievements">
-
-    <div class="section-heading">
-
-        <span>Achievements</span>
-
-        <h2>Certifications & Milestones</h2>
-
-        <p>
-            A summary of my educational progress,
-            creative achievements, leadership experiences,
-            and professional growth journey.
-        </p>
-
-    </div>
-
-    <div class="achievements-container">
-
-        <div class="achievement-card">
-
-            <i class="fas fa-graduation-cap"></i>
-
-            <h3>Diploma in ICT</h3>
-
-            <p>
-                Currently pursuing a Diploma in Information
-                Communication Technology at Kiharu TVC.
+                A little about who I am, what I do, and the direction
+                I'm taking in technology and digital creativity.
             </p>
 
         </div>
 
-        <div class="achievement-card">
 
-            <i class="fas fa-video"></i>
+        <!-- ABOUT CONTENT -->
+        <div class="about-content">
 
-            <h3>Content Creator</h3>
+            <!-- LEFT SIDE -->
+            <div class="about-visual">
 
-            <p>
-                Created and published engaging digital content
-                reaching audiences through TikTok, Facebook,
-                Instagram, and YouTube.
-            </p>
+                <div class="about-image-card">
 
-        </div>
+                    <div class="about-image-frame">
 
-        <div class="achievement-card">
+                        <img
+                            src="images/about.jpg"
+                            alt="Johnson Mwangi"
+                        >
 
-            <i class="fas fa-palette"></i>
+                    </div>
 
-            <h3>Graphic Design Projects</h3>
+                    <div class="about-image-info">
 
-            <p>
-                Designed posters, flyers, banners,
-                and promotional materials for students,
-                organizations, and local businesses.
-            </p>
+                        <div>
+                            <strong>Johnson Mwangi</strong>
+                            <span>ICT Student • Web Developer</span>
+                        </div>
 
-        </div>
+                        <div class="about-brand">
+                            NK
+                        </div>
 
-        <div class="achievement-card">
+                    </div>
 
-            <i class="fas fa-laptop-code"></i>
+                </div>
 
-            <h3>Web Development</h3>
 
-            <p>
-                Building responsive websites and digital
-                solutions using modern web technologies.
-            </p>
+                <!-- EXPERIENCE / JOURNEY CARD -->
+                <div class="about-mini-card">
 
-        </div>
+                    <span class="mini-card-icon">✦</span>
 
-        <div class="achievement-card">
+                    <div>
+                        <strong>Started my ICT journey</strong>
+                        <span>2025 • Kiharu TVC</span>
+                    </div>
 
-            <i class="fas fa-users"></i>
+                </div>
 
-            <h3>Leadership & Collaboration</h3>
+            </div>
 
-            <p>
-                Worked closely with student leaders,
-                content creators, and campus organizations
-                on various projects.
-            </p>
 
-        </div>
+            <!-- RIGHT SIDE -->
+            <div class="about-text">
 
-        <div class="achievement-card">
+                <span class="about-intro">
+                    Hello, I'm Johnson 👋
+                </span>
 
-            <i class="fas fa-lightbulb"></i>
+                <h3>
+                    I'm an ICT student who enjoys
+                    <span>turning ideas into digital experiences.</span>
+                </h3>
 
-            <h3>Continuous Learning</h3>
+                <p>
+                    I'm currently pursuing Information and Communication
+                    Technology at Kiharu Technical and Vocational College.
+                    My interest in technology started with understanding
+                    how websites and software work, and has grown into a
+                    passion for building useful digital solutions.
+                </p>
 
-            <p>
-                Constantly improving technical, creative,
-                and entrepreneurial skills through
-                practical experience.
-            </p>
+                <p>
+                    My current focus is web development and web applications.
+                    I work with technologies such as HTML, CSS, JavaScript,
+                    Python, Django and databases while continuously improving
+                    my understanding of software development.
+                </p>
+
+                <p>
+                    Beyond development, I also have a creative side through
+                    digital graphics, branding and visual content. This
+                    creative identity is represented by <strong>Ngisto Keche</strong>,
+                    allowing me to combine technology with design.
+                </p>
+
+
+                <!-- FOCUS CARDS -->
+                <div class="about-focus">
+
+                    <div class="focus-item">
+
+                        <span class="focus-number">01</span>
+
+                        <div>
+                            <strong>Web Development</strong>
+                            <span>Responsive websites & web applications</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="focus-item">
+
+                        <span class="focus-number">02</span>
+
+                        <div>
+                            <strong>Problem Solving</strong>
+                            <span>Building practical digital solutions</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="focus-item">
+
+                        <span class="focus-number">03</span>
+
+                        <div>
+                            <strong>Digital Creativity</strong>
+                            <span>Graphics, branding & visual design</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ABOUT BUTTON -->
+                <div class="about-actions">
+
+                    <a href="#journey" class="about-btn primary-about-btn">
+                        Explore My Journey
+                        <span>→</span>
+                    </a>
+
+                    <a href="#contact" class="about-btn secondary-about-btn">
+                        Let's Connect
+                    </a>
+
+                </div>
+
+            </div>
 
         </div>
 
     </div>
 
 </section>
-<section class="motto">
 
-    <div class="motto-content">
 
-        <h2>
-            "Technology fuels my skills,
-            creativity drives my vision."
-        </h2>
+<!-- =========================
+     SKILLS SECTION
+========================= -->
 
-        <p>
-            My mission is to use technology,
-            design, and storytelling to create
-            meaningful digital experiences that
-            inspire, educate, and entertain.
-        </p>
+<section class="skills-section" id="skills">
+
+    <div class="skills-container">
+
+        <div class="skills-heading">
+            <span class="section-label">MY SKILLS</span>
+
+            <h2>
+                Skills That Turn
+                <span>Ideas Into Solutions.</span>
+            </h2>
+
+            <p>
+                A practical mix of development, databases, tools and creative
+                skills that I use to design, build and improve digital experiences.
+            </p>
+        </div>
+
+        <div class="skills-overview">
+
+            <div class="skills-intro-card">
+                <div class="skills-card-label">
+                    <span class="label-dot"></span>
+                    WHAT I WORK WITH
+                </div>
+
+                <h3>
+                    Building with purpose,
+                    <span>not just technology.</span>
+                </h3>
+
+                <p>
+                    I focus on understanding the problem first, then choosing
+                    the right tools to create solutions that are useful,
+                    responsive and easy to use.
+                </p>
+
+                <div class="skills-stats">
+                    <div class="skill-stat">
+                        <strong>09</strong>
+                        <span>Core Tools</span>
+                    </div>
+                    <div class="skill-stat">
+                        <strong>03</strong>
+                        <span>Focus Areas</span>
+                    </div>
+                    <div class="skill-stat">
+                        <strong>∞</strong>
+                        <span>Learning Mindset</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-list">
+
+                <div class="skill-row">
+                    <div class="skill-index">01</div>
+                    <div class="skill-symbol">&lt;/&gt;</div>
+                    <div class="skill-details">
+                        <div class="skill-title">
+                            <strong>HTML5</strong>
+                            <span>Advanced</span>
+                        </div>
+                        <p>Semantic structure & accessible web pages</p>
+                        <div class="skill-progress"><span style="--skill-level: 90%;"></span></div>
+                    </div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-index">02</div>
+                    <div class="skill-symbol">#</div>
+                    <div class="skill-details">
+                        <div class="skill-title">
+                            <strong>CSS3</strong>
+                            <span>Advanced</span>
+                        </div>
+                        <p>Responsive layouts, styling & visual design</p>
+                        <div class="skill-progress"><span style="--skill-level: 88%;"></span></div>
+                    </div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-index">03</div>
+                    <div class="skill-symbol">JS</div>
+                    <div class="skill-details">
+                        <div class="skill-title">
+                            <strong>JavaScript</strong>
+                            <span>Intermediate</span>
+                        </div>
+                        <p>Interaction, logic & dynamic web experiences</p>
+                        <div class="skill-progress"><span style="--skill-level: 78%;"></span></div>
+                    </div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-index">04</div>
+                    <div class="skill-symbol">Py</div>
+                    <div class="skill-details">
+                        <div class="skill-title">
+                            <strong>Python</strong>
+                            <span>Intermediate</span>
+                        </div>
+                        <p>Programming, automation & backend foundations</p>
+                        <div class="skill-progress"><span style="--skill-level: 72%;"></span></div>
+                    </div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-index">05</div>
+                    <div class="skill-symbol">Dj</div>
+                    <div class="skill-details">
+                        <div class="skill-title">
+                            <strong>Django</strong>
+                            <span>Intermediate</span>
+                        </div>
+                        <p>Web applications, routing & backend development</p>
+                        <div class="skill-progress"><span style="--skill-level: 70%;"></span></div>
+                    </div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-index">06</div>
+                    <div class="skill-symbol">DB</div>
+                    <div class="skill-details">
+                        <div class="skill-title">
+                            <strong>Databases</strong>
+                            <span>Intermediate</span>
+                        </div>
+                        <p>Data organisation, queries & database management</p>
+                        <div class="skill-progress"><span style="--skill-level: 68%;"></span></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="skills-bottom">
+
+            <div class="skills-category">
+                <div class="category-number">01</div>
+                <div>
+                    <span class="category-label">DEVELOPMENT</span>
+                    <p>HTML5 · CSS3 · JavaScript · Python · Django</p>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <div class="category-number">02</div>
+                <div>
+                    <span class="category-label">TOOLS & WORKFLOW</span>
+                    <p>Git · GitHub · VS Code · Testing · Deployment</p>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <div class="category-number">03</div>
+                <div>
+                    <span class="category-label">CREATIVE</span>
+                    <p>Graphics · Branding · Visual Content · Digital Design</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="learning-section">
+
+            <div class="learning-intro">
+                <span>CURRENTLY EXPLORING</span>
+                <p>
+                    Continuously expanding my technical knowledge and
+                    strengthening my development workflow.
+                </p>
+            </div>
+
+            <div class="learning-tools">
+                <span>Next.js</span>
+                <span>TypeScript</span>
+                <span>APIs</span>
+                <span>Cybersecurity</span>
+                <span>Software Engineering</span>
+            </div>
+
+        </div>
 
     </div>
 
 </section>
-<!-- TOOLS & SOFTWARE -->
 
-<section class="tools" id="tools">
+<!-- =========================
+     PROJECTS SECTION
+========================= -->
 
-    <div class="section-heading">
+<section class="projects-section" id="projects">
 
-        <span>My Toolkit</span>
+    <div class="projects-container">
 
-        <h2>Tools & Software I Use</h2>
+        <div class="section-heading">
 
-        <p>
-            These are the technologies, software, and creative tools
-            I use to deliver professional digital solutions.
-        </p>
+            <span class="section-label">MY PROJECTS</span>
 
-    </div>
+            <h2>
+                Things I've
+                <span>Built.</span>
+            </h2>
 
-    <div class="tools-container">
-
-        <div class="tool-card">
-            <i class="fab fa-html5"></i>
-            <h3>HTML5</h3>
-        </div>
-
-        <div class="tool-card">
-            <i class="fab fa-css3-alt"></i>
-            <h3>CSS3</h3>
-        </div>
-
-        <div class="tool-card">
-            <i class="fab fa-js"></i>
-            <h3>JavaScript</h3>
-        </div>
-
-        <div class="tool-card">
-            <i class="fab fa-github"></i>
-            <h3>GitHub</h3>
-        </div>
-
-        <div class="tool-card">
-            <i class="fas fa-code"></i>
-            <h3>VS Code</h3>
-        </div>
-
-        <div class="tool-card">
-            <i class="fas fa-paint-brush"></i>
-            <h3>Canva</h3>
-        </div>
-
-        <div class="tool-card">
-            <i class="fas fa-image"></i>
-            <h3>Photoshop</h3>
-        </div>
-
-        <div class="tool-card">
-            <i class="fas fa-film"></i>
-            <h3>Premiere Pro</h3>
-        </div>
-
-        <div class="tool-card">
-            <i class="fas fa-video"></i>
-            <h3>CapCut</h3>
-        </div>
-
-        <div class="tool-card">
-            <i class="fas fa-file-word"></i>
-            <h3>MS Office</h3>
-        </div>
-
-        <div class="tool-card">
-            <i class="fas fa-network-wired"></i>
-            <h3>Networking</h3>
-        </div>
-
-        <div class="tool-card">
-            <i class="fas fa-database"></i>
-            <h3>Database Basics</h3>
-        </div>
-
-    </div>
-
-</section>
-<section class="stats">
-
-    <div class="stat-box">
-        <h2>100+</h2>
-        <p>Design Projects</p>
-    </div>
-
-    <div class="stat-box">
-        <h2>50+</h2>
-        <p>Videos Edited</p>
-    </div>
-
-    <div class="stat-box">
-        <h2>10K+</h2>
-        <p>Social Reach</p>
-    </div>
-
-    <div class="stat-box">
-        <h2>3+</h2>
-        <p>Years Learning Digital Skills</p>
-    </div>
-
-</section>
-
-<!-- CONTACT SECTION -->
-
-<section class="contact" id="contact">
-
-    <div class="section-heading">
-
-        <span>Contact Me</span>
-        <h2>Get In Touch</h2>
-
-        <p>
-            Have a project, collaboration, or idea?  
-            Send me a direct message on WhatsApp.
-        </p>
-
-    </div>
-
-    <div class="contact-box-wrapper">
-
-        <div class="contact-card">
-
-            <h3>Phone</h3>
-            <p>+254 703 327 796</p>
+            <p>
+                A selection of websites and applications I've built while
+                developing my skills and creating practical digital solutions.
+            </p>
 
         </div>
 
-        <div class="contact-card">
 
-            <h3>Email</h3>
-            <p>ngistokeche03@gmail.com</p>
+        <!-- PROJECT FILTERS -->
+
+        <div class="project-filters">
+
+            <button class="project-filter active" data-filter="all">
+                All
+            </button>
+
+            <button class="project-filter" data-filter="web">
+                Websites
+            </button>
+
+            <button class="project-filter" data-filter="application">
+                Web Applications
+            </button>
 
         </div>
 
-        <div class="contact-card">
 
-            <h3>Location</h3>
-            <p>Murang'a, Kenya</p>
+        <!-- PROJECTS GRID -->
+
+        <div class="projects-grid">
+
+
+            <!-- STUDENT VOTING SYSTEM -->
+
+            <article
+                class="project-card"
+                data-category="application"
+            >
+
+                <div class="project-image">
+
+                    <iframe
+                        src="https://kiharutvcvotingsystem.netlify.app/"
+                        title="Student Voting System Preview"
+                        loading="lazy">
+                    </iframe>
+
+                    <span class="project-number">
+                        01
+                    </span>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        WEB APPLICATION
+                    </span>
+
+                    <h3>
+                        Student Voting System
+                    </h3>
+
+                    <p>
+                        A Django-based student voting system designed to
+                        manage students, positions, candidates and voting
+                        through a structured web application.
+                    </p>
+
+
+                    <div class="project-stack">
+
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>SQLite</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <a
+                            href="https://kiharutvcvotingsystem.netlify.app/"
+                            class="project-btn primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Project
+                            <span>→</span>
+                        </a>
+
+                        <a
+                            href="https://github.com/johnson867/johnson"
+                            class="project-btn secondary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- MODERN FURNITURE WEBSITE -->
+
+            <article
+                class="project-card"
+                data-category="web"
+            >
+
+                <div class="project-image">
+
+                    <iframe
+                        src="https://gibsonmurage.netlify.app/"
+                        title="Modern Furniture Website Preview"
+                        loading="lazy">
+                    </iframe>
+
+                    <span class="project-number">
+                        02
+                    </span>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        WEBSITE
+                    </span>
+
+                    <h3>
+                        Modern Furniture Website
+                    </h3>
+
+                    <p>
+                        A responsive business website created to showcase
+                        furniture products, business information and services
+                        through a professional online presence.
+                    </p>
+
+
+                    <div class="project-stack">
+
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Responsive Design</span>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <a
+                            href="https://gibsonmurage.netlify.app/"
+                            class="project-btn primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Project
+                            <span>→</span>
+                        </a>
+
+                        <a
+                            href="https://github.com/johnson867/johnson"
+                            class="project-btn secondary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
 
         </div>
 
-    </div>
 
-    <div class="whatsapp-center">
+        <div class="projects-footer">
 
-        <a href="https://wa.me/254703327796?text=Hello%20Johnson%20Mwangi%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20work%20with%20you."
-           target="_blank"
-           class="whatsapp-btn">
+            <p>
+                More projects will be added as I continue learning,
+                building and improving.
+            </p>
 
-            <i class="fab fa-whatsapp"></i>
-            Chat on WhatsApp
-
-        </a>
-
-    </div>
-
-</section>
-<!-- FOOTER -->
- <!-- ================= PREMIUM FOOTER ================= -->
-
-<footer class="footer">
-<div class="footer-top">
-
-    <!-- Brand -->
-    <div class="footer-column">
-
-        <img src="pictures/jjjjjjjjjjjjj.jpeg" alt="Johnson Mwangi">
-
-        <h2>Johnson Mwangi</h2>
-
-        <h4>Ngisto Keche</h4>
-
-        <p>
-            ICT Student, Graphic Designer, Video Editor,
-            Content Creator and Web Developer passionate
-            about technology, creativity and digital innovation.
-        </p>
-
-    </div>
-
-    <!-- Navigation -->
-    <div class="footer-column">
-
-        <h3>Navigation</h3>
-
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contact</a>
-
-    </div>
-
-    <!-- Services -->
-    <div class="footer-column">
-
-        <h3>Services</h3>
-
-        <a href="#">Graphic Design</a>
-        <a href="#">Video Editing</a>
-        <a href="#">Content Creation</a>
-        <a href="#">Web Development</a>
-        <a href="#">Social Media Branding</a>
-
-    </div>
-
-    <!-- Contact -->
-    <div class="footer-column">
-
-        <h3>Get In Touch</h3>
-
-        <p><i class="fas fa-phone"></i> +254 703 327 796</p>
-
-        <p><i class="fas fa-envelope"></i> ngistokeche03@gmail.com</p>
-
-        <p><i class="fas fa-location-dot"></i> Murang'a, Kenya</p>
-
-        <div class="footer-social-icons">
-
-            <a href="https://www.facebook.com/ngisto.keche" target="_blank">
-                <i class="fab fa-facebook-f"></i>
+            <a href="#contact">
+                Have a project in mind?
+                <span>Let's talk →</span>
             </a>
 
-            <a href="https://www.instagram.com/keche6784/" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
+        </div>
 
-            <a href="https://www.tiktok.com/@mwangi.official2" target="_blank">
-                <i class="fab fa-tiktok"></i>
-            </a>
+    </div>
 
-            <a href="https://www.youtube.com/@ngistokeche" target="_blank">
-                <i class="fab fa-youtube"></i>
+</section>
+
+
+<!-- ================= CREATIVE SECTION ================= -->
+
+<section class="creative-section" id="creative">
+
+    <div class="creative-container">
+
+        <!-- Heading -->
+        <div class="creative-header">
+
+            <div class="creative-heading">
+
+                <span class="section-label">
+                    <span class="label-line"></span>
+                    GRAPHIC DESIGN
+                </span>
+
+                <h2>
+                    Design That Gives
+                    <span>Ideas A Visual Identity.</span>
+                </h2>
+
+                <p>
+                    Alongside web development, I create professional graphics,
+                    promotional designs and visual content for individuals,
+                    brands and businesses.
+                </p>
+
+            </div>
+
+
+            <!-- Filters -->
+            <div class="creative-filters">
+
+                <button
+                    class="creative-filter active"
+                    data-filter="all">
+                    All
+                </button>
+
+                <button
+                    class="creative-filter"
+                    data-filter="posters">
+                    Posters
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Gallery -->
+        <div class="creative-grid">
+
+
+            <!-- ================= DESIGN 01 ================= -->
+
+            <article
+                class="creative-card"
+                data-category="posters">
+
+                <div class="creative-image">
+
+                    <img
+                        src="images/design-course-intake.jpg"
+                        alt="Kiharu TVC Computing and Informatics Department intake poster designed by Johnson Mwangi"
+                    >
+
+                    <div class="creative-overlay">
+
+                        <span class="creative-type">
+                            POSTER
+                        </span>
+
+                        <button
+                            class="creative-view"
+                            type="button"
+                            aria-label="View poster">
+
+                            <i class="fa-solid fa-expand"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="creative-info">
+
+                    <div>
+
+                        <span class="creative-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Course Intake Poster
+                        </h3>
+
+                    </div>
+
+                    <span class="creative-arrow">
+                        →
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- ================= DESIGN 02 ================= -->
+
+            <article
+                class="creative-card"
+                data-category="posters">
+
+                <div class="creative-image">
+
+                    <img
+                        src="images/design-dj-booking.jpg"
+                        alt="DJ Jojoh event booking poster designed by Johnson Mwangi"
+                    >
+
+                    <div class="creative-overlay">
+
+                        <span class="creative-type">
+                            POSTER
+                        </span>
+
+                        <button
+                            class="creative-view"
+                            type="button"
+                            aria-label="View poster">
+
+                            <i class="fa-solid fa-expand"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="creative-info">
+
+                    <div>
+
+                        <span class="creative-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Event Booking Poster
+                        </h3>
+
+                    </div>
+
+                    <span class="creative-arrow">
+                        →
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- ================= DESIGN 03 ================= -->
+
+            <article
+                class="creative-card"
+                data-category="posters">
+
+                <div class="creative-image">
+
+                    <img
+                        src="images/design-good-friday.jpg"
+                        alt="Kiharu TVC Good Friday greeting poster designed by Johnson Mwangi"
+                    >
+
+                    <div class="creative-overlay">
+
+                        <span class="creative-type">
+                            POSTER
+                        </span>
+
+                        <button
+                            class="creative-view"
+                            type="button"
+                            aria-label="View poster">
+
+                            <i class="fa-solid fa-expand"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="creative-info">
+
+                    <div>
+
+                        <span class="creative-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Holiday Greeting Poster
+                        </h3>
+
+                    </div>
+
+                    <span class="creative-arrow">
+                        →
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- ================= DESIGN 04 ================= -->
+
+            <article
+                class="creative-card"
+                data-category="posters">
+
+                <div class="creative-image">
+
+                    <img
+                        src="images/design-ai-training.jpg"
+                        alt="Kiharu TVC AI Training Program poster designed by Johnson Mwangi"
+                    >
+
+                    <div class="creative-overlay">
+
+                        <span class="creative-type">
+                            POSTER
+                        </span>
+
+                        <button
+                            class="creative-view"
+                            type="button"
+                            aria-label="View poster">
+
+                            <i class="fa-solid fa-expand"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="creative-info">
+
+                    <div>
+
+                        <span class="creative-number">
+                            04
+                        </span>
+
+                        <h3>
+                            AI Training Program Poster
+                        </h3>
+
+                    </div>
+
+                    <span class="creative-arrow">
+                        →
+                    </span>
+
+                </div>
+
+            </article>
+
+            <!-- More design categories (branding, social media, profile & cover)
+                 will be added here as real project examples become available. -->
+
+        </div>
+
+
+        <!-- Bottom CTA -->
+
+        <div class="creative-bottom">
+
+            <div class="creative-note">
+
+                <span class="note-line"></span>
+
+                <div>
+                    <strong>
+                        Have a project in mind?
+                    </strong>
+
+                    <p>
+                        Let's turn your ideas into professional designs.
+                    </p>
+                </div>
+
+            </div>
+
+            <a
+                href="#contact"
+                class="creative-cta">
+
+                Work With Me
+
+                <span>→</span>
+
             </a>
-            <a href="https://github.com/Genymobile/scrcpy">
-                <i class="fab fa-github"></i>
-            </a>
-        
 
         </div>
 
     </div>
 
-</div>
+</section>
 
-<!-- Footer Bottom -->
 
-<div class="footer-bottom">
+<!-- ================= SERVICES SECTION ================= -->
 
-    <p>
-        © 2026 Johnson Mwangi (Ngisto Keche). All Rights Reserved.
-    </p>
-<p>Designed by Ngisto Keche Graphics Studio.</p>
-   
+<section class="services-section" id="services">
 
-</div>
+    <div class="services-container">
+
+        <div class="section-heading services-heading">
+
+            <span class="section-label">WHAT I DO</span>
+
+            <h2>
+                Turning Ideas Into
+                <span>Useful Digital Solutions.</span>
+            </h2>
+
+            <p>
+                I combine web development and digital creativity to create
+                practical, responsive and visually engaging solutions.
+            </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <!-- Service 01 -->
+            <article class="service-card">
+
+                <div class="service-number">01</div>
+
+                <div class="service-icon">
+                    &lt;/&gt;
+                </div>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Building responsive and modern websites designed to work
+                    smoothly across phones, tablets and computers.
+                </p>
+
+                <div class="service-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </article>
+
+
+            <!-- Service 02 -->
+            <article class="service-card">
+
+                <div class="service-number">02</div>
+
+                <div class="service-icon">
+                    ◈
+                </div>
+
+                <h3>Web Applications</h3>
+
+                <p>
+                    Developing database-driven web applications that solve
+                    real problems and make information easier to manage.
+                </p>
+
+                <div class="service-tags">
+                    <span>Python</span>
+                    <span>Django</span>
+                    <span>SQLite</span>
+                </div>
+
+            </article>
+
+
+            <!-- Service 03 -->
+            <article class="service-card">
+
+                <div class="service-number">03</div>
+
+                <div class="service-icon">
+                    ✦
+                </div>
+
+                <h3>Digital Graphics</h3>
+
+                <p>
+                    Creating professional digital graphics, promotional
+                    designs, branding materials and social media visuals.
+                </p>
+
+                <div class="service-tags">
+                    <span>Graphics</span>
+                    <span>Branding</span>
+                    <span>Visual Design</span>
+                </div>
+
+            </article>
+
+
+            <!-- Service 04 -->
+            <article class="service-card">
+
+                <div class="service-number">04</div>
+
+                <div class="service-icon">
+                    ↗
+                </div>
+
+                <h3>Website Improvement</h3>
+
+                <p>
+                    Improving existing websites through better layouts,
+                    responsiveness, visual presentation and user experience.
+                </p>
+
+                <div class="service-tags">
+                    <span>Responsive</span>
+                    <span>UI</span>
+                    <span>UX</span>
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <div class="services-bottom">
+
+            <div class="services-note">
+                <span class="note-line"></span>
+
+                <p>
+                    Have an idea that needs a digital solution?
+                </p>
+            </div>
+
+            <a href="#contact" class="services-cta">
+                Start a Project
+                <span>→</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= JOURNEY SECTION ================= -->
+
+<section class="journey-section" id="journey">
+
+    <div class="journey-container">
+
+        <div class="section-heading journey-heading">
+
+            <span class="section-label">MY JOURNEY</span>
+
+            <h2>
+                Learning, Building,
+                <span>Growing.</span>
+            </h2>
+
+            <p>
+                My journey in technology is built around learning by doing,
+                creating real projects and continuously improving my skills.
+            </p>
+
+        </div>
+
+
+        <div class="journey-content">
+
+            <!-- Timeline -->
+
+            <div class="journey-timeline">
+
+                <!-- 01 -->
+
+                <div class="journey-item">
+
+                    <div class="journey-marker">
+                        <span>01</span>
+                    </div>
+
+                    <div class="journey-card">
+
+                        <span class="journey-year">2025</span>
+
+                        <h3>Started My ICT Journey</h3>
+
+                        <p>
+                            I began pursuing Information and Communication
+                            Technology at Kiharu Technical and Vocational
+                            College, building my foundation in computing
+                            and technology.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 02 -->
+
+                <div class="journey-item">
+
+                    <div class="journey-marker">
+                        <span>02</span>
+                    </div>
+
+                    <div class="journey-card">
+
+                        <span class="journey-year">Development</span>
+
+                        <h3>Discovered Web Development</h3>
+
+                        <p>
+                            I became interested in how websites are built and
+                            started developing my skills in HTML, CSS and
+                            JavaScript while creating practical web projects.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 03 -->
+
+                <div class="journey-item">
+
+                    <div class="journey-marker">
+                        <span>03</span>
+                    </div>
+
+                    <div class="journey-card">
+
+                        <span class="journey-year">Building</span>
+
+                        <h3>Moved Into Web Applications</h3>
+
+                        <p>
+                            My learning expanded into Python, Django and
+                            databases, allowing me to build applications that
+                            go beyond static websites.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 04 -->
+
+                <div class="journey-item">
+
+                    <div class="journey-marker">
+                        <span>04</span>
+                    </div>
+
+                    <div class="journey-card">
+
+                        <span class="journey-year">Today</span>
+
+                        <h3>Building Real Projects</h3>
+
+                        <p>
+                            I continue learning by building projects,
+                            experimenting with new technologies and improving
+                            how I approach design, development and problem
+                            solving.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Journey Statement -->
+
+            <div class="journey-side">
+
+                <div class="journey-highlight">
+
+                    <span class="highlight-label">
+                        THE APPROACH
+                    </span>
+
+                    <h3>
+                        I learn by
+                        <span>building.</span>
+                    </h3>
+
+                    <p>
+                        Instead of only studying technology theoretically,
+                        I use projects to understand how different technologies
+                        work together. Every project gives me another
+                        opportunity to improve my coding, design and
+                        problem-solving skills.
+                    </p>
+
+                    <div class="journey-line"></div>
+
+                    <span class="journey-brand">
+                        Johnson Mwangi
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+
+<section class="contact-section" id="contact">
+
+    <div class="contact-container">
+
+        <div class="section-heading contact-heading">
+
+            <span class="section-label">GET IN TOUCH</span>
+
+            <h2>
+                Have an Idea?
+                <span>Let's Build It.</span>
+            </h2>
+
+            <p>
+                Whether you need a website, web application or creative
+                digital work, tell me what you're working on and let's
+                discuss how I can help.
+            </p>
+
+        </div>
+
+
+        <div class="contact-content">
+
+            <!-- CONTACT INFORMATION -->
+
+            <div class="contact-info">
+
+                <div class="contact-intro">
+
+                    <span class="contact-small-title">
+                        CONTACT ME
+                    </span>
+
+                    <h3>
+                        Let's start a
+                        <span>conversation.</span>
+                    </h3>
+
+                    <p>
+                        I'm open to discussing web projects, digital
+                        solutions, creative work and new ideas.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-details">
+
+                    <!-- EMAIL -->
+
+                    <a
+                        href="mailto:muchokijohnson86@gmail.com"
+                        class="contact-item"
+                    >
+
+                        <div class="contact-item-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <span>Email</span>
+                            <strong>
+                                muchokijohnson86@gmail.com
+                            </strong>
+                        </div>
+
+                    </a>
+
+
+                    <!-- PHONE -->
+
+                    <a
+                        href="tel:+254703327796"
+                        class="contact-item"
+                    >
+
+                        <div class="contact-item-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <div>
+                            <span>Phone</span>
+                            <strong>
+                                0703327796
+                            </strong>
+                        </div>
+
+                    </a>
+
+
+                    <!-- WHATSAPP -->
+
+                    <a
+                        href="https://wa.me/254703327796"
+                        target="_blank"
+                        rel="noopener"
+                        class="contact-item"
+                    >
+
+                        <div class="contact-item-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+
+                        <div>
+                            <span>WhatsApp</span>
+                            <strong>
+                                Start a conversation
+                            </strong>
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <!-- SOCIAL MEDIA -->
+
+                <div class="contact-socials">
+
+                    <span>Find me online</span>
+
+                    <div class="social-links">
+
+                        <a
+                            href="https://github.com/johnson867"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="GitHub"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a
+                            href="https://www.instagram.com/keche6784/"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="Instagram"
+                        >
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a
+                            href="https://www.tiktok.com/@mwangi.official2"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="TikTok"
+                        >
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+
+                        <a
+                            href="https://www.youtube.com/@ngistokeche"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="YouTube"
+                        >
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/johnson-mwangi-17b98b404/"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="LinkedIn"
+                        >
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a
+                            href="https://www.facebook.com/ngisto.keche"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="Facebook"
+                        >
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT FORM -->
+
+            <div class="contact-form-card">
+
+                <div class="form-header">
+
+                    <span class="form-label">
+                        PROJECT INQUIRY
+                    </span>
+
+                    <h3>
+                        Tell me about your project
+                    </h3>
+
+                </div>
+
+
+                <form id="contactForm">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Your Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="service">
+                            What do you need?
+                        </label>
+
+                        <select
+                            id="service"
+                            name="service"
+                            required
+                        >
+
+                            <option value="">
+                                Select a service
+                            </option>
+
+                            <option value="Web Development">
+                                Web Development
+                            </option>
+
+                            <option value="Web Application">
+                                Web Application
+                            </option>
+
+                            <option value="Website Improvement">
+                                Website Improvement
+                            </option>
+
+                            <option value="Digital Graphics">
+                                Digital Graphics
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Project Details
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Tell me about your idea or project..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="contact-submit"
+                    >
+
+                        <span>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Send via WhatsApp
+                        </span>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+
+                    <p
+                        class="form-status"
+                        id="formStatus"
+                    ></p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FINAL CTA ================= -->
+
+<section class="final-cta">
+
+    <div class="final-cta-container">
+
+        <div class="final-cta-content">
+
+            <span class="section-label">LET'S WORK TOGETHER</span>
+
+            <h2>
+                Have something
+                <span>worth building?</span>
+            </h2>
+
+            <p>
+                From websites and web applications to digital creative work,
+                I'm always interested in turning good ideas into useful
+                digital experiences.
+            </p>
+
+            <div class="final-cta-actions">
+
+                <a href="#contact" class="final-cta-primary">
+                    Start a Project
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a
+                    href="https://wa.me/254703327796"
+                    target="_blank"
+                    rel="noopener"
+                    class="final-cta-secondary"
+                >
+                    <i class="fa-brands fa-whatsapp"></i>
+                    WhatsApp Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <div class="footer-top">
+
+            <!-- Brand -->
+
+            <div class="footer-brand">
+
+                <a href="#home" class="footer-logo">
+
+                    <img
+                        src="images/avatar.jpg"
+                        alt="Johnson Mwangi"
+                    >
+
+                    <div>
+
+                        <strong>
+                            Johnson Mwangi
+                        </strong>
+
+                        <span>
+                            Ngisto Keche
+                        </span>
+
+                    </div>
+
+                </a>
+
+                <p>
+                    ICT Student • Web Developer • Digital Creator
+                </p>
+
+            </div>
+
+
+            <!-- Footer Navigation -->
+
+            <div class="footer-navigation">
+
+                <span class="footer-title">
+                    Explore
+                </span>
+
+                <div class="footer-links">
+
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#creative">Creative</a>
+                    <a href="#services">Services</a>
+                    <a href="#journey">Journey</a>
+                    <a href="#contact">Contact</a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Socials -->
+
+            <div class="footer-social">
+
+                <span class="footer-title">
+                    Connect
+                </span>
+
+                <div class="footer-social-links">
+
+                    <a
+                        href="https://github.com/johnson867"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="GitHub"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a
+                        href="https://www.instagram.com/keche6784/"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Instagram"
+                    >
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a
+                        href="https://www.tiktok.com/@mwangi.official2"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="TikTok"
+                    >
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+
+                    <a
+                        href="https://www.youtube.com/@ngistokeche"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="YouTube"
+                    >
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/johnson-mwangi-17b98b404/"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="LinkedIn"
+                    >
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a
+                        href="https://www.facebook.com/ngisto.keche"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Facebook"
+                    >
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a
+                        href="https://wa.me/254703327796"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="WhatsApp"
+                    >
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="currentYear"></span>
+                Johnson Mwangi. All rights reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#home">
+                    Back to top
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </footer>
 
-<a href="https://wa.me/254703327796?text=Hello%20I%20want%20to%20connect"
-   class="float-whatsapp"
-   target="_blank">
-
-    <i class="fab fa-whatsapp"></i>
-
-</a>
-<button id="topBtn">↑</button> 
-
-<div class="lightbox">
  
-    <span class="close-lightbox">& times;</span>
-
-    <img class="lightbox-img" src="" alt="">
-
+<button
+    class="back-to-top"
+    id="backToTop"
+    aria-label="Back to top"
+>
+ 
+ 
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+ 
+<!-- FLOATING CHATBOT -->
+ 
+<div class="chatbot-wrapper" id="chatbotWrapper">
+ 
+    <div class="chatbot-window">
+ 
+        <div class="chatbot-header">
+ 
+            <div class="chatbot-profile">
+ 
+                <div class="chatbot-avatar">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+ 
+                <div>
+                    <strong>Johnson's Assistant</strong>
+                    <span>
+                        <i class="fa-solid fa-circle"></i>
+                        Online
+                    </span>
+                </div>
+ 
+            </div>
+ 
+            <button id="chatbotClose" type="button">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+ 
+        </div>
+ 
+ 
+        <div class="chatbot-messages" id="chatbotMessages">
+ 
+            <div class="bot-message">
+                <div class="bot-icon">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+ 
+                <div class="message-bubble">
+                    Hi 👋 I'm Johnson's portfolio assistant.
+                    <br><br>
+                    Ask me about his skills, projects, services,
+                    or how to contact him.
+                </div>
+            </div>
+ 
+ 
+            <div class="quick-questions">
+ 
+                <button type="button" data-question="Who is Johnson?">
+                    About Johnson
+                </button>
+ 
+                <button type="button" data-question="What skills does Johnson have?">
+                    Skills
+                </button>
+ 
+                <button type="button" data-question="What projects has Johnson built?">
+                    Projects
+                </button>
+ 
+                <button type="button" data-question="What services does Johnson offer?">
+                    Services
+                </button>
+ 
+                <button type="button" data-question="How can I contact Johnson?">
+                    Contact
+                </button>
+ 
+            </div>
+ 
+        </div>
+ 
+ 
+        <div class="chatbot-input">
+ 
+            <input
+                type="text"
+                id="chatbotInput"
+                placeholder="Ask something..."
+            >
+ 
+            <button id="chatbotSend" type="button">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+ 
+        </div>
+ 
+    </div>
+ 
 </div>
+ 
+    <!-- ================= JAVASCRIPT ================= -->
+    <script src="script.js"></script>
+ 
 </body>
+ 
 </html>
